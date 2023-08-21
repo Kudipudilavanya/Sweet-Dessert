@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Validation Login Form</title>
+        <link rel="stylesheet" href="src/Login.css">
+
+    </head>
+    <body>
+          
+        <div class="container">
+            <nav> <a href="Login.html"></a>
+            
+                 
+                <a href="http://127.0.0.1:5500/indexx.html"></a>
+                <a href="cart.html"></a>
+              
+               
+            </nav>
+            <h1 class="label">User Login</h1>
+            <form class="login_form"  a method="post" name="form onsubmit= return validated()">
+                <div class="font">Email pr Phone</div>
+                <input autocomplete="off" type="text" name="email">
+                <div id="email_error">Please fill up your Email or Phone</div>
+                <div class="font font2">Password</div>
+                <input type="password" name="password">
+                <div id="pass_error">Please fill up your Password</div>
+                <button type="submit">Login</button>
+                 
+            </form>
+ </div>
+
+ <script src="src/login.js"></script>
+ <script src="src/Data.js"></script>
+ <script src="src/main.js"></script>
+    </body>
+</html>
